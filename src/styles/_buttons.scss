@@ -1,0 +1,34 @@
+.btn-website1 {
+    background-color: $mainColor;
+    border: 2px solid $subColor;
+    outline: none !important;
+    padding: 6px 12px;
+    border-radius: 20px;
+    color: $subColor;
+    font-size: 14px;
+    letter-spacing: 1.2px;
+    transition: all .4s;
+    font-weight: 600;
+    &:hover {
+        background-color:$subColor ;
+        color: $mainColor;
+    }
+}
+.btn-website2 {
+    background-color: $mainColor;
+    border: 2px solid $subColor;
+    outline: none !important;
+    padding: 6px 12px;
+    border-radius: 5px;
+    color: $subColor;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    transition: all .4s;
+    font-weight: 700;
+
+    &:hover {
+        background-color: $subColor;
+        color: $mainColor;
+        border: 2px solid $mainColor;
+    }
+}
